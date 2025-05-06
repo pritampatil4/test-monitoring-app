@@ -1,0 +1,27 @@
+{
+  "name": "test-monitoring-app",
+  "version": "1.0.0",
+  "description": "UI Automation Script for Grafana Monitoring Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test --headed --trace on"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritampatil4/test-monitoring-app.git"
+  },
+  "keywords": [
+    "Playwright",
+    "tests"
+  ],
+  "author": "Pritam Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritampatil4/test-monitoring-app/issues"
+  },
+  "homepage": "https://github.com/pritampatil4/test-monitoring-app#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.12"
+  }
+}
