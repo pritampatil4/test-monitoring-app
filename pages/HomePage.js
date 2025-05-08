@@ -91,9 +91,6 @@ class HomePage {
       (resp) => requestUrlRegex.test(resp.url()) && resp.status() === 200
     );
     const responseBody = await specificMixedResponse.json();
-
-    // const state = responseBody.results.state;
-
     const { check_name, instance, job } =
       responseBody.results["latency denom"].frames[0].schema.fields[1].labels;
     return { check_name, instance, job };
