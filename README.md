@@ -1,6 +1,3 @@
-# Test Monitoring App Tests
-
----
 
 ## Setup
 
