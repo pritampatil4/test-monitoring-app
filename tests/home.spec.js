@@ -11,7 +11,6 @@ test.describe("Home Page Tests", () => {
     page = await browser.newPage();
     homePage = new HomePage(page);
     await homePage.goToHome();
-    await page.waitForTimeout(5000);
   });
 
   test.afterAll(async () => {
