@@ -49,11 +49,6 @@ class HomePage {
     return this.page.getByTestId("data-testid RefreshPicker run button");
   }
 
-  get rowAllChecks() {
-    return this.page.locator(
-      'xpath=[data-testid="data-testid Panel header All checks"] [role="table"] [data-testid="data-testid table body"] [role="row"]'
-    );
-  }
 
   //actions methods
   async goToHome() {
